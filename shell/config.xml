@@ -1,6 +1,6 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.susanlescobar.app" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.susanlescobar.*" version="1.0.0">
   <name>Insigno</name>
-  <description>here it is</description>"susanescobar66@aol.com">Susan Escobar</author>
+  <description>here it is</description><author email="susanescobar66@aol.com" href="http://www.susanlescobar.com"> Susan Escobar</author>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="14"/>
   <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1"/>
