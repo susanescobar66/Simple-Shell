@@ -1,23 +1,11 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.susanlescobar.app" version="1.0.0">
-  <name>Insigno</name>
-  <description>here it is</description><author email="susanescobar66@aol.com" href="http://www.susanlescobar.com"> Susan Escobar</author>
+  <name>CUAAD</name>
+  <description>Link a los sitios educativos del CUAAD</description><author email="susanescobar66@aol.com" href="http://www.susanlescobar.com"> Susan Escobar</author>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="14"/>
    <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
     
-    <gap:plugin name="org.apache.cordova.device" />
-    <gap:plugin name="org.apache.cordova.camera" />
-    <gap:plugin name="org.apache.cordova.media-capture" />
-    <gap:plugin name="org.apache.cordova.file" />
-    <gap:plugin name="org.apache.cordova.file-transfer" />
-    <gap:plugin name="org.apache.cordova.splashscreen" />
-    <gap:plugin name="org.apache.cordova.contacts" />
-    <gap:plugin name="org.apache.cordova.geolocation" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" />
-    <gap:plugin name="org.apache.cordova.dialogs" />
-    <gap:plugin name="org.apache.cordova.vibration" />
-    <gap:plugin name="org.apache.cordova.network-information" />
-    <gap:plugin name="com.simplec.plugins.localnotification" />
+   
 
 	<icon src="icon.png" />
 	
@@ -41,7 +29,10 @@
     <gap:splash src="res/screen/ios/Default.png" gap:platform="ios" width="320" height="480" />
     <gap:splash src="res/screen/ios/Default@2x.png" gap:platform="ios" width="680" height="960" />
     <gap:splash src="res/screen/ios/Deafult-568h-2x.png" gap:platform="ios" width="640" height="1136" />
- <!--/*<plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1"/>
+ <!--
+ 
+ 
+ <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1"/>
   <plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1"/>
   <plugin name="cordova-plugin-media-capture" source="npm" spec="~1.2.0"/>
   <plugin name="cordova-plugin-console" source="npm" spec="~1.0.2"/>
@@ -132,7 +123,7 @@
     <icon src="www/res/icon/windows/Wide310x150Logo.scale-240.png" platform="windows" width="744" height="360"/>
     <splash src="www/res/screen/windows/SplashScreenPhone.scale-240.png" platform="windows" width="1152" height="1920"/>
   </platform>*/-->
-    <content src="http://www.stratusrepositories.com" />
+    <content src="http://148.202.102.21" />
     <access origin="*" subdomains="true" />
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
